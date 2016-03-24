@@ -275,3 +275,100 @@ footer{
 .socialmedia a:first-child{
 	padding: 7px 9px;
 }
+@media(max-width: 295px){
+	body{
+		width: 100%;
+	}
+}
+
+@media(max-width: 295px){
+	nav > img{
+		margin-left: 0px;
+	}
+}
+
+@media(max-width: 410px){
+	.cta h1{
+		font-size: 86px;
+	}
+}
+
+@media(max-width: 400px){
+	footer > p{
+		right: 50px;
+		font-size: 12px;
+	}
+}
+
+@media(max-width: 400px){
+	footer{
+		padding: 0;
+	}
+}
+
+@media(max-width: 455px){
+	.features{
+		padding-left: 0;
+	}
+}
+
+@media(max-width: 455px){
+	.features .box{
+		width: 200px;
+		float: center;
+		padding: 5px 17%;
+	}
+}
+
+@media(max-width: 850px){
+	.contact{
+		padding: 5px;
+	}
+}
+
+@media(max-width: 480px){
+	form input,
+	form textarea{
+		width: 60%;
+	}
+}
+
+@media(max-width: 455px){
+	form div{
+		margin-left: 80px;
+	}
+}
+
+@media(max-width: 455px){
+	form div span{
+		width: 10%;		
+		display: inline-block;
+		margin-left: 0
+	}
+}
+
+@media(max-width: 455px){
+	form div span button{
+		display: inline-block;
+	}
+}
+
+@media(max-width: 680px){
+	footer{
+		height: 100px;
+	}
+}
+
+@media(max-width: 680px){
+	footer .socialmedia{
+		display: inline-block;
+		margin-top: 30px;
+	}
+}
+
+@media(max-width: 680px){
+	.socialmedia a{
+		float: center;
+		margin-left: 5%;
+	}
+}
